@@ -5,5 +5,7 @@ use_frameworks!
 target ‘Ryuk’ do
     pod 'Alamofire', '~> 4.4'
     pod 'SnapKit', '~> 3.2.0'
+    pod 'SDWebImage', '~>3.8'
     pod 'SwiftyJSON'
+    pod "WeiboSDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git" 
 end

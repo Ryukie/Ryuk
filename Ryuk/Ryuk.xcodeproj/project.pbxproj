@@ -12,6 +12,7 @@
 		4A4EB9F01E65DB8A007178BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9EE1E65DB8A007178BA /* Main.storyboard */; };
 		4A4EB9F21E65DB8A007178BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9F11E65DB8A007178BA /* Assets.xcassets */; };
 		4A4EB9F51E65DB8A007178BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9F31E65DB8A007178BA /* LaunchScreen.storyboard */; };
+		B2373102A1DA363AB8B8FAC2 /* Pods_Ryuk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFED22FD52045B30FDFC3CF /* Pods_Ryuk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		4A4EB9F11E65DB8A007178BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4EB9F41E65DB8A007178BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4EB9F61E65DB8A007178BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFED22FD52045B30FDFC3CF /* Pods_Ryuk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ryuk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ED7BB2B075FE3E8A5D9BA1 /* Pods-Ryuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ryuk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ryuk/Pods-Ryuk.debug.xcconfig"; sourceTree = "<group>"; };
+		BD9EBA16B07CFD5389702E75 /* Pods-Ryuk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ryuk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ryuk/Pods-Ryuk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2373102A1DA363AB8B8FAC2 /* Pods_Ryuk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		258B0AFFE89958F4F752560F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED7BB2B075FE3E8A5D9BA1 /* Pods-Ryuk.debug.xcconfig */,
+				BD9EBA16B07CFD5389702E75 /* Pods-Ryuk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4A4EB9DE1E65DB89007178BA = {
 			isa = PBXGroup;
 			children = (
 				4A4EB9E91E65DB8A007178BA /* Ryuk */,
 				4A4EB9E81E65DB8A007178BA /* Products */,
+				258B0AFFE89958F4F752560F /* Pods */,
+				980CF23C54A301BD2BF6F6E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = Ryuk;
 			sourceTree = "<group>";
 		};
+		980CF23C54A301BD2BF6F6E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DFED22FD52045B30FDFC3CF /* Pods_Ryuk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A4EB9F91E65DB8A007178BA /* Build configuration list for PBXNativeTarget "Ryuk" */;
 			buildPhases = (
+				8CEF29D6DCE6084F49611D4E /* [CP] Check Pods Manifest.lock */,
 				4A4EB9E31E65DB89007178BA /* Sources */,
 				4A4EB9E41E65DB89007178BA /* Frameworks */,
 				4A4EB9E51E65DB89007178BA /* Resources */,
+				3C5CE74FC2927F122AD12403 /* [CP] Embed Pods Frameworks */,
+				2452BB69009929433A3A546E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2452BB69009929433A3A546E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ryuk/Pods-Ryuk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C5CE74FC2927F122AD12403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ryuk/Pods-Ryuk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CEF29D6DCE6084F49611D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A4EB9E31E65DB89007178BA /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		4A4EB9FA1E65DB8A007178BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ED7BB2B075FE3E8A5D9BA1 /* Pods-Ryuk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DE9LJ533VH;
@@ -271,6 +347,7 @@
 		};
 		4A4EB9FB1E65DB8A007178BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9EBA16B07CFD5389702E75 /* Pods-Ryuk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DE9LJ533VH;
