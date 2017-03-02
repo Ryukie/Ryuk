@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A4EB9EB1E65DB8A007178BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EB9EA1E65DB8A007178BA /* AppDelegate.swift */; };
 		4A4EB9ED1E65DB8A007178BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EB9EC1E65DB8A007178BA /* ViewController.swift */; };
-		4A4EB9F01E65DB8A007178BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9EE1E65DB8A007178BA /* Main.storyboard */; };
 		4A4EB9F21E65DB8A007178BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9F11E65DB8A007178BA /* Assets.xcassets */; };
 		4A4EB9F51E65DB8A007178BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9F31E65DB8A007178BA /* LaunchScreen.storyboard */; };
+		A4306B361E67FC9500137747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B351E67FC9500137747 /* AppDelegate.swift */; };
+		A4306B381E67FDBD00137747 /* RKMainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B371E67FDBD00137747 /* RKMainNavigationController.swift */; };
+		A4306B3A1E67FFE900137747 /* RKUIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B391E67FFE900137747 /* RKUIConfig.swift */; };
+		A4306B3C1E68038E00137747 /* RKMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B3B1E68038E00137747 /* RKMainTabBarController.swift */; };
+		A4306B3E1E68148700137747 /* RKadasfgd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B3D1E68148700137747 /* RKadasfgd.swift */; };
+		A4306B401E68149400137747 /* RKertbrtbfgb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B3F1E68149400137747 /* RKertbrtbfgb.swift */; };
+		A4306B421E6814A000137747 /* RKwerwrebb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B411E6814A000137747 /* RKwerwrebb.swift */; };
+		A4306B441E6814AA00137747 /* RKfgdhfjgmj.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B431E6814AA00137747 /* RKfgdhfjgmj.swift */; };
 		B2373102A1DA363AB8B8FAC2 /* Pods_Ryuk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFED22FD52045B30FDFC3CF /* Pods_Ryuk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A4EB9E71E65DB8A007178BA /* Ryuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryuk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A4EB9EA1E65DB8A007178BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A4EB9EC1E65DB8A007178BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A4EB9EF1E65DB8A007178BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A4EB9F11E65DB8A007178BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4EB9F41E65DB8A007178BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4EB9F61E65DB8A007178BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DFED22FD52045B30FDFC3CF /* Pods_Ryuk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ryuk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4306B351E67FC9500137747 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4306B371E67FDBD00137747 /* RKMainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKMainNavigationController.swift; sourceTree = "<group>"; };
+		A4306B391E67FFE900137747 /* RKUIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKUIConfig.swift; sourceTree = "<group>"; };
+		A4306B3B1E68038E00137747 /* RKMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKMainTabBarController.swift; sourceTree = "<group>"; };
+		A4306B3D1E68148700137747 /* RKadasfgd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKadasfgd.swift; sourceTree = "<group>"; };
+		A4306B3F1E68149400137747 /* RKertbrtbfgb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKertbrtbfgb.swift; sourceTree = "<group>"; };
+		A4306B411E6814A000137747 /* RKwerwrebb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKwerwrebb.swift; sourceTree = "<group>"; };
+		A4306B431E6814AA00137747 /* RKfgdhfjgmj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKfgdhfjgmj.swift; sourceTree = "<group>"; };
 		A7ED7BB2B075FE3E8A5D9BA1 /* Pods-Ryuk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ryuk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ryuk/Pods-Ryuk.debug.xcconfig"; sourceTree = "<group>"; };
 		BD9EBA16B07CFD5389702E75 /* Pods-Ryuk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ryuk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ryuk/Pods-Ryuk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,9 +82,10 @@
 		4A4EB9E91E65DB8A007178BA /* Ryuk */ = {
 			isa = PBXGroup;
 			children = (
-				4A4EB9EA1E65DB8A007178BA /* AppDelegate.swift */,
+				A4306B2E1E67FA9D00137747 /* Crust */,
+				A4306B331E67FA9D00137747 /* Modules */,
+				A4306B341E67FA9D00137747 /* Utilities */,
 				4A4EB9EC1E65DB8A007178BA /* ViewController.swift */,
-				4A4EB9EE1E65DB8A007178BA /* Main.storyboard */,
 				4A4EB9F11E65DB8A007178BA /* Assets.xcassets */,
 				4A4EB9F31E65DB8A007178BA /* LaunchScreen.storyboard */,
 				4A4EB9F61E65DB8A007178BA /* Info.plist */,
@@ -86,6 +99,67 @@
 				4DFED22FD52045B30FDFC3CF /* Pods_Ryuk.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4306B2E1E67FA9D00137747 /* Crust */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B2F1E67FA9D00137747 /* Category */,
+				A4306B301E67FA9D00137747 /* Config */,
+				A4306B311E67FA9D00137747 /* Main */,
+				A4306B321E67FA9D00137747 /* Model */,
+			);
+			path = Crust;
+			sourceTree = "<group>";
+		};
+		A4306B2F1E67FA9D00137747 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B3D1E68148700137747 /* RKadasfgd.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A4306B301E67FA9D00137747 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B391E67FFE900137747 /* RKUIConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A4306B311E67FA9D00137747 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B351E67FC9500137747 /* AppDelegate.swift */,
+				A4306B371E67FDBD00137747 /* RKMainNavigationController.swift */,
+				A4306B3B1E68038E00137747 /* RKMainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A4306B321E67FA9D00137747 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B3F1E68149400137747 /* RKertbrtbfgb.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4306B331E67FA9D00137747 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B411E6814A000137747 /* RKwerwrebb.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A4306B341E67FA9D00137747 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A4306B431E6814AA00137747 /* RKfgdhfjgmj.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +228,6 @@
 			files = (
 				4A4EB9F51E65DB8A007178BA /* LaunchScreen.storyboard in Resources */,
 				4A4EB9F21E65DB8A007178BA /* Assets.xcassets in Resources */,
-				4A4EB9F01E65DB8A007178BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,22 +286,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4306B421E6814A000137747 /* RKwerwrebb.swift in Sources */,
+				A4306B3A1E67FFE900137747 /* RKUIConfig.swift in Sources */,
+				A4306B401E68149400137747 /* RKertbrtbfgb.swift in Sources */,
+				A4306B3C1E68038E00137747 /* RKMainTabBarController.swift in Sources */,
+				A4306B361E67FC9500137747 /* AppDelegate.swift in Sources */,
+				A4306B381E67FDBD00137747 /* RKMainNavigationController.swift in Sources */,
+				A4306B441E6814AA00137747 /* RKfgdhfjgmj.swift in Sources */,
 				4A4EB9ED1E65DB8A007178BA /* ViewController.swift in Sources */,
-				4A4EB9EB1E65DB8A007178BA /* AppDelegate.swift in Sources */,
+				A4306B3E1E68148700137747 /* RKadasfgd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A4EB9EE1E65DB8A007178BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A4EB9EF1E65DB8A007178BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A4EB9F31E65DB8A007178BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -378,6 +450,7 @@
 				4A4EB9FB1E65DB8A007178BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
