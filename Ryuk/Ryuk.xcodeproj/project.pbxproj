@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A4EB9ED1E65DB8A007178BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EB9EC1E65DB8A007178BA /* ViewController.swift */; };
 		4A4EB9F21E65DB8A007178BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9F11E65DB8A007178BA /* Assets.xcassets */; };
 		4A4EB9F51E65DB8A007178BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4EB9F31E65DB8A007178BA /* LaunchScreen.storyboard */; };
 		A4306B361E67FC9500137747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4306B351E67FC9500137747 /* AppDelegate.swift */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		4A4EB9E71E65DB8A007178BA /* Ryuk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ryuk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A4EB9EC1E65DB8A007178BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A4EB9F11E65DB8A007178BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4EB9F41E65DB8A007178BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4EB9F61E65DB8A007178BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				A4306B2E1E67FA9D00137747 /* Crust */,
 				A4306B331E67FA9D00137747 /* Modules */,
 				A4306B341E67FA9D00137747 /* Utilities */,
-				4A4EB9EC1E65DB8A007178BA /* ViewController.swift */,
 				4A4EB9F11E65DB8A007178BA /* Assets.xcassets */,
 				4A4EB9F31E65DB8A007178BA /* LaunchScreen.storyboard */,
 				4A4EB9F61E65DB8A007178BA /* Info.plist */,
@@ -293,7 +290,6 @@
 				A4306B361E67FC9500137747 /* AppDelegate.swift in Sources */,
 				A4306B381E67FDBD00137747 /* RKMainNavigationController.swift in Sources */,
 				A4306B441E6814AA00137747 /* RKfgdhfjgmj.swift in Sources */,
-				4A4EB9ED1E65DB8A007178BA /* ViewController.swift in Sources */,
 				A4306B3E1E68148700137747 /* RKadasfgd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
